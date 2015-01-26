@@ -1,0 +1,22 @@
+<article class="post">
+  <header>
+    <h1><%= @post.title %></h1>
+    <p>
+      <strong>
+        Created by: Tiago Sciência
+        <span>|</span>
+        Published:
+        <time pubdate="pubdate"><%= time_ago_in_words(@post.created_at) %></time>
+      </strong>
+    </p>
+  </header>
+  <p>
+    <%= @post.content %>
+  </p>
+  <footer>
+    <p>
+      <span class="label label-info">tag1</span>
+      <span class="label label-info">tag2</span>
+    </p>
+  </footer>
+</article>

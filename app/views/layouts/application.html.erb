@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<header>
+<header class="header">
   <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container clearfix">
       <div class="navbar-header">
@@ -28,6 +28,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="<%= posts_path %>">ADMIN</a></li>
           <li><a href="<%= aboutme_path %>">ABOUT ME</a></li>
           <li><a href="<%= contact_path %>">CONTACT</a></li>
         </ul>
@@ -38,18 +39,20 @@
 
 <div class="before-main-content"></div>
 
+<!-- Main content -->
 <div id="container">
+  <!-- Flash messages -->
   <% flash.each do |name, msg| %>
-      <%= content_tag :div, msg, class: "flash #{name}" %>
+      <%= content_tag :div, msg, class: "alert alert-#{name}" %>
   <% end %>
   <div class="container">
     <%= yield %>
   </div>
 </div>
 
-<footer>
+<footer class="footer">
   <div class="container">
-    <p>© Awesome Rails blog 2015</p>
+    <p>© Awesome Rails blog - 2015</p>
   </div>
 </footer>
 

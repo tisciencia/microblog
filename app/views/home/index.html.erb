@@ -1,5 +1,14 @@
-<div class="row">
-  <div class="cl-md-12">
-    <h1>Posts</h1>
-  </div>
+<div class="posts">
+  <% @posts.reverse.each do |post| %>
+      <article class="post post-lead">
+        <header>
+          <h1><%= link_to post.title, post %></h1>
+        </header>
+        <p>
+          <%= truncate(post.content, length: 256, separator: ' ') { link_to "leia mais", post } %>
+        </p>
+        <footer>
+        </footer>
+      </article>
+  <% end %>
 </div>
