@@ -1,10 +1,10 @@
-== FIRST APP RAILS
+= FIRST APP RAILS
 
 It is a microblog developed using RoR. 
 
 This app was built as a challenge for Bankfacil company.
 
-## TODO
+== TODO
 
 * Add / Remove Tags to post
 * Authentication
