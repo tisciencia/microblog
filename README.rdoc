@@ -1,8 +1,8 @@
-= FIRST APP RAILS
+= FIRST APP BUILT IN RAILS
 
 It is a microblog developed using RoR. 
 
-This app was built as a challenge for Bankfacil company.
+This app was built as a challenge for Bankfacil[http://bankfacil.com.br/] company.
 
 == TODO
 
