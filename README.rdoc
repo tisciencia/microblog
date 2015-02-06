@@ -13,4 +13,3 @@ This app was built as a challenge for Bankfacil[http://bankfacil.com.br/] compan
 * Add / Remove Tags to post
 * Authentication
 * JS text editor
-* Refactor to clean architecture

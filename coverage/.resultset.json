@@ -208,20 +208,20 @@
         null,
         null,
         1,
-        0,
+        2,
         null,
-        0,
-        0,
-        0,
+        2,
+        1,
+        1,
         null,
-        0,
+        1,
         null,
         null,
         null,
         1,
         null,
         1,
-        0,
+        3,
         null,
         null,
         null
@@ -231,6 +231,18 @@
         null,
         null,
         1,
+        null
+      ],
+      "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/controllers/home_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/controllers/posts_controller.rb": [
@@ -295,17 +307,7 @@
         1,
         null,
         1,
-        18,
-        null,
-        null
-      ],
-      "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/controllers/home_controller.rb": [
-        1,
-        1,
-        0,
-        null,
-        null,
-        1,
+        19,
         null,
         null
       ],
@@ -327,8 +329,8 @@
         1,
         null,
         1,
-        1,
-        0,
+        3,
+        8,
         null,
         null,
         null,
@@ -336,8 +338,18 @@
         0,
         null,
         null
+      ],
+      "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/mailers/contact_mailer.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1423102044
+    "timestamp": 1423182692
   }
 }
