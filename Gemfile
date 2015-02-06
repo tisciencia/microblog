@@ -21,9 +21,8 @@ end
 gem "codeclimate-test-reporter", group: :test, require: nil
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18.1'
+  gem 'rails_12factor'
 end
 
-gem 'rails_12factor', group: :production
-
-ruby "2.2.0"
+#ruby "2.2.0"
