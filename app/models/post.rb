@@ -4,8 +4,14 @@ class Post < ActiveRecord::Base
 
   before_save :correct_slug!
 
+  acts_as_taggable
+
   def to_param
     slug.parameterize
+  end
+
+  def tag_list
+    tags.map(&:name).join(", ")
   end
 
   private

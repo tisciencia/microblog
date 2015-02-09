@@ -74,3 +74,27 @@ h1 {
 
   img {max-width: 100% }
 }
+
+.tag-container {
+  background-color: #fff;
+  padding: 20px;
+
+  span {
+    font-weight: normal;
+    margin-right: 10px;
+    font-size: 0.8em;
+  }
+}
+
+.tag {
+
+  a {
+    font-size: 1.2em;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

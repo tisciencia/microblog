@@ -1,0 +1,16 @@
+<div class="row posts">
+  <% @posts.reverse.each do |post| %>
+      <div class="col-lg-4">
+        <article class="post post-lead">
+          <header>
+            <h1><%= link_to post.title, post %></h1>
+          </header>
+          <p>
+            <%= truncate(post.content, length: 256, separator: ' ') { link_to "leia mais", post } %>
+          </p>
+          <footer>
+          </footer>
+        </article>
+      </div>
+  <% end %>
+</div>

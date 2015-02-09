@@ -16,4 +16,9 @@ describe Post do
     post.save
     expect(post.slug).to eq "first-article"
   end
+
+  it "should create a valid post with tags" do
+    post = Post.new({:title=>"first article", :content=>"content...", :tag_list=>"tag1, tag2"})
+    expect(post.save).to be true
+  end
 end

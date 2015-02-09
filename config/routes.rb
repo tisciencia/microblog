@@ -6,5 +6,6 @@ Rails.application.routes.draw do
 
   resources :contacts, only: [:new, :create]
   resources :posts
+  resources :tags, only: [:index, :show]
 
 end
