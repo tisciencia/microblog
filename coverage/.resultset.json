@@ -185,6 +185,7 @@
         null,
         1,
         1,
+        1,
         null,
         null
       ],
@@ -293,9 +294,23 @@
         null,
         null
       ],
+      "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/controllers/tags_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/tiagosciencia/Documents/workspace/ror_projects/microblog/app/models/post.rb": [
         1,
         1,
+        1,
+        null,
         1,
         null,
         1,
@@ -305,9 +320,13 @@
         null,
         null,
         1,
+        1,
+        null,
         null,
         1,
-        19,
+        null,
+        1,
+        23,
         null,
         null
       ],
@@ -350,6 +369,6 @@
         null
       ]
     },
-    "timestamp": 1423182692
+    "timestamp": 1423512413
   }
 }

@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'acts-as-taggable-on'
+gem 'ckeditor', github: 'galetahub/ckeditor'
 
 group :development, :test do
   gem 'sqlite3'

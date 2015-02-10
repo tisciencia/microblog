@@ -10,7 +10,7 @@
     </div>
     <div class="form-group">
       <%= f.label :content %>
-      <%= f.text_area :content, class: "form-control" %>
+      <%= f.cktext_area :content, :ckeditor => { :uiColor => '#eeeeee', :toolbar => 'mini' } %>
     </div>
     <div class="form-group">
       <%= f.submit "Save", class: "btn btn-large btn-primary" %>

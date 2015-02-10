@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/galetahub/ckeditor.git
+  revision: 96c2ba8602154a7d46c4c95952550ae638503396
+  specs:
+    ckeditor (4.1.1)
+      cocaine
+      orm_adapter (~> 0.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,6 +48,10 @@ GEM
       activerecord (>= 3.2, < 5)
     arel (6.0.0)
     builder (3.2.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.5)
+      climate_control (>= 0.0.3, < 1.0)
     codeclimate-test-reporter (0.4.6)
       simplecov (>= 0.7.1, < 1.0.0)
     coffee-rails (4.1.0)
@@ -82,6 +94,7 @@ GEM
     multi_json (1.10.1)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
+    orm_adapter (0.5.0)
     pg (0.18.1)
     rack (1.6.0)
     rack-test (0.6.3)
@@ -184,6 +197,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts-as-taggable-on
+  ckeditor!
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
