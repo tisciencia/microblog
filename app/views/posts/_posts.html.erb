@@ -6,7 +6,7 @@
             <h1><%= link_to post.title, post %></h1>
           </header>
           <p>
-            <%= truncate(raw(post.content), length: 256, separator: ' ') { link_to "leia mais", post } %>
+            <%= truncate(sanitize(post.content, :tags=>[]), length: 256, separator: ' ') { link_to "leia mais", post } %>
           </p>
           <footer>
           </footer>
