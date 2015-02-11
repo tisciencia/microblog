@@ -10,6 +10,4 @@ This app was built as a challenge for Bankfacil[http://bankfacil.com.br/] compan
 
 == TODO
 
-* Add / Remove Tags to post
 * Authentication
-* JS text editor
